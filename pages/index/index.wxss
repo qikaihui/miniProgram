@@ -1,0 +1,48 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.btn {
+  width: 400rpx;
+  height: 120rpx;
+  background-color: #0f0;
+}
+.aaa {
+  background-color: #0ff;
+}
+.banner-item {
+  width: 100%;
+  height: 100%;
+}
+movable-area {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+  pointer-events: none;
+  background-color: #ccc;
+}
+.movableView {
+	pointer-events: auto;
+}
+.movableBtn {
+	width: 100%;
+	height: 100%;
+	font-size: 26rpx;
+}

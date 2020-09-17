@@ -1,0 +1,24 @@
+<view class="page-1">
+  <view class="heider">
+    <view class="h-l h-item">111</view>
+    <view class="h-m h-item">222</view>
+    <view class="h-r h-item">333</view>
+  </view>
+  <view class="main">
+    <swiper indicator-dots="true" autoplay="true" interval="3000" circular="true">
+      <swiper-item><image mode="aspectFill" class="banner-item" src="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3892521478,1695688217&fm=26&gp=0.jpg"></image></swiper-item>
+      <swiper-item><image mode="aspectFill" class="banner-item" src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1830914723,3154965800&fm=26&gp=0.jpg"></image></swiper-item>
+      <swiper-item><image mode="aspectFill" class="banner-item" src="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1089874897,1268118658&fm=26&gp=0.jpg"></image></swiper-item>
+      <swiper-item><image mode="aspectFill" class="banner-item" src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2534506313,1688529724&fm=26&gp=0.jpg"></image></swiper-item>
+      <swiper-item><image mode="aspectFill" class="banner-item" src="https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg"></image></swiper-item>
+    </swiper>
+    <movable-area class="movableArea">
+      <movable-view class="movableView" direction="all">
+          <view class="movableBtn">
+            图标
+          </view>
+        </movable-view>
+    </movable-area>
+    <button bindtap="getInfo">获取信息</button>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/movable/index.wxml-->
+<view class="page">
+  <movable-area class="movableArea">
+    <movable-view class="movableItem" direction="all">kkkkk</movable-view>
+  </movable-area>
+</view>

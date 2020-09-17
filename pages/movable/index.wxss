@@ -1,0 +1,15 @@
+/* pages/movable/index.wxss */
+/* page,.page{
+  height: 100%;
+  background-color: #333;
+} */
+.movableArea {
+  width: 100%;
+  height: 100vh;
+  background-color: #ccc;
+}
+.movableItem {
+  width: 120rpx;
+  height: 120rpx;
+  background-color: #0f0;
+}
