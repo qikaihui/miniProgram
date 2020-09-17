@@ -24,6 +24,8 @@
 }
 .h-item {
   height: 100%;
+  text-align: center;
+  line-height: 49px;
 }
 .h-l,.h-r {
   width: 160rpx;
